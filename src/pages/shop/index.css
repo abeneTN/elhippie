@@ -1,0 +1,40 @@
+.shop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    height: 320px;
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.item:hover {
+    width: 40%;
+}
+
+.item1 {
+    /* background-image: url('../images/produits/one.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.item2 {
+    /* background-image: url('../images/produits/two.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.item3 {
+    /* background-image: url('../images/produits/three.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.item_description {
+    display: none;
+}

@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+header > ul {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px auto 0 auto;
+    padding: 0;
+    justify-content: center;
+    list-style: none;
+}
+
+header > ul > li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.both_button_menu {
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+}
+
+.icon_menu {
+    transform: scale(0.8);
+}
+
+.line-1 {
+    height: 2px;
+    background: black;
+    width: 25%;
+}
+
+#logo {
+    height: 50px;
+}

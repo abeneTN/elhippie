@@ -1,9 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Header from './components/header/header'
+import Main from './pages/main/main';
+import Products from './pages/shop/products';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+      <Header />
+      <main>
+        <Main />
+		<Products/>
+      </main>
   </React.StrictMode>
 );
 

@@ -1,0 +1,52 @@
+.welcome {
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.show {
+    height: 300px;
+    width: 80%;
+    background-image: url("img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#discover {
+    background-color: transparent;
+    border: none;
+    font-weight: 400;
+    color: #232323;
+    font-family: Roboto;
+    cursor: pointer;
+    font-weight: 400;
+    color: #232323;
+}
+
+.discover {
+    position: absolute;
+    bottom: 20px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.discover > h2 {
+    margin-bottom: 5px;
+}
+
+.discover > img {
+    transform: scale(0.7);
+}
